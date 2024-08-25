@@ -1,0 +1,32 @@
+.stockList {
+  text-align: center;
+}
+.stock-head {
+  font-size: 28px;
+  font-family: "Roboto";
+  font-weight: bold;
+  color: #ffffff;
+}
+.stock-ul-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.stock-li-item {
+  font-size: 15px;
+  font-family: "Roboto";
+  font-weight: 300;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  margin: 20px;
+  padding: 10px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+}
